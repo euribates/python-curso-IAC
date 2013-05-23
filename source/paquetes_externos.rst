@@ -207,7 +207,7 @@ Podemos arrancar este entorno con la orden::
 
 Se pueden salvar las sesiones de trabajo como documentos, que mantienen
 todos estos elementos y que pueden ser almacenados en sistemas de control
-de veriones, o enviados por correo electrónico osalvados como ficheros
+de versiones, o enviados por correo electrónico o salvados como ficheros
 HTML o PDF para imprimir o publicar estáticamente en la web. El formato
 interno de almacenamiento es json, que puede ser manipulado
 con facilidad para exportar a otros formatos.
@@ -216,13 +216,21 @@ con facilidad para exportar a otros formatos.
 
     - Ejecutar un código Python
 
-    - Introducor texto
+    - Introducir texto
 
     - Formulas matemáticas (http://www.mathjax.org/)
+
+    - Celdas Python/texto (MarkDown)
+
+    - Formulas matemáticas
+
+    - numpy / matplob
 
     - Salvar como HTML/PDF (Estático)
 
     - Salvar como notebook
+
+
 
 Python Image Library (PIL) Procesado de imágenes
 -----------------------------------------------------------------------
@@ -261,6 +269,20 @@ Scikit Machine Learning con Python
 
 Interfaz con C
 -----------------------------------------------------------------------
+
+Cython es un compilador estático optimizado para los lenguajes  Python
+y el lenguaje extendido Cython (Basado en Pyrex). Permite escribir
+extensiones para Python en C/C++ de forma tan fácil como  si fuera
+Python.
+
+El lenguaje Cython es un superconjunto de Python, que incorpora la
+posibilidad de llamar a funciones en C y de declarar tipos de datos,
+estructuras y, en el caso de C++, clases tal y como se hace en C/C++.
+Esto permite al compilador generar un código C/C++ muy eficiente a partir
+del código Cython. El código final en C/C++ se genera una sola vez y puede
+luego compilarse con cualquiera de los principales compiladores de C/C++ y
+producir un módulo CPython utilizable desde la versión 2.4 y
+posteriores, incluyendo Python 3.x.
 
 Waitress
 -----------------------------------------------------------------------
